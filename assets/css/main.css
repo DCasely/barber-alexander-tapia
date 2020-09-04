@@ -1304,11 +1304,13 @@ h2 {
 
 #banner h1 {
   font-size: 5em;
+  text-transform: uppercase;
 }
 
 #banner h2 {
   font-size: 2.5em;
   margin-bottom: 1em;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 980px) {
