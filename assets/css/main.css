@@ -1444,8 +1444,13 @@ body.is-loading #banner:before {
 
 /* Main */
 
-#main {
+#main,
+#main-2 {
   padding: 4em 0 2em 0;
+}
+
+#main-2 {
+  background-color: #454545;
 }
 
 @media screen and (max-width: 736px) {
