@@ -1469,6 +1469,7 @@ body.is-loading #banner:before {
 }
 
 #main .inner a {
+  font-family: 'Kaushan Script', cursive;
   text-transform: uppercase;
   letter-spacing: 5px;
   -webkit-box-shadow: 2px 2px 2px 0px rgba(255, 255, 255, 0.5);
