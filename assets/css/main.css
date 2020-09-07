@@ -1491,6 +1491,7 @@ body.is-loading #banner:before {
 
 #footer .inner h2 {
   text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 980px) {
