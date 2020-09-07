@@ -1460,6 +1460,11 @@ body.is-loading #banner:before {
   margin: 0 auto;
 }
 
+#main .inner a {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 @media screen and (max-width: 480px) {
   #main .inner {
     width: 95%;
