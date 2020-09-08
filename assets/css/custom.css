@@ -1,0 +1,35 @@
+.videos {
+  background-image: url('../../images/ybn-cordae-background.jpg');
+  background-size: cover;
+  width: 100%;
+  padding: 0;
+}
+
+.videos .inner {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10rem 0;
+  display: flex;
+  justify-content: left;
+  padding: 5% 10%;
+}
+
+.videos .thumbails {
+  padding: 0;
+}
+
+.videos .box {
+  background-color: transparent;
+  width: 20rem;
+  max-width: 100%;
+  margin: 0;
+}
+
+video {
+  width: 100%;
+}
+
+.videos .inner .button {
+  background: rgba(172, 7, 7, 0.5);
+  width: 100%;
+  padding: 0;
+}
