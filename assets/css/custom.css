@@ -141,6 +141,11 @@
   .ybn-cordae {
     background-position: right;
   }
+
+  #main {
+    background-position: center;
+  }
+
   .thumbnails {
     width: 100%;
   }
