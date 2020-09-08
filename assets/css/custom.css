@@ -94,6 +94,7 @@
 
 #main {
   background-image: url('../../images/nflbackground.jpeg');
+  background-attachment: fixed;
 }
 
 #main .box {
