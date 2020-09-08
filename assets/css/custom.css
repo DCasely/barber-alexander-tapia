@@ -8,14 +8,15 @@
 }
 
 .ybn-cordae .container {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: flex-start;
+  margin: auto;
 }
 
 .ybn-cordae .inner {
   background-color: rgba(255, 255, 255, 0.3);
-  padding: 10% 7.5%;
+  padding: 5% 7.5%;
 }
 
 .ybn-cordae .thumbails {
@@ -33,7 +34,7 @@
   width: 100%;
 }
 
-.ybn-cordae .inner .button {
+.ybn-cordae .button {
   background: rgba(172, 7, 7, 0.5);
   width: 100%;
   padding: 0;
@@ -47,15 +48,15 @@
   background-image: url('../../images/ybn-nahmir-background.jpg');
   background-size: cover;
   width: 100%;
-  padding: 10% 7.5%;
+  padding: 5% 7.5%;
 }
 
 .ybn-nahmir .container {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: flex-end;
   margin: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .ybn-nahmir .box {
@@ -73,4 +74,23 @@
 
 .ybn-nahmir video {
   width: 100%;
+}
+
+.ybn-nahmir .button {
+  background: rgba(0, 0, 0);
+  width: 100%;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* MEDIA QUERIES FOR MOBILE PHONE  */
+
+@media screen and (max-width: 480px) {
+  .ybn-cordae {
+    background-position: right;
+  }
+  .thumbnails {
+    width: 100%;
+  }
 }
