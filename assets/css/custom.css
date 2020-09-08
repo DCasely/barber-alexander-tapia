@@ -107,10 +107,20 @@
 }
 
 #main-2 .inner .button {
-  background: #013369;
+  background: rgba(1, 51, 105, 0.9);
   border: 1px solid #000;
   width: 100%;
   padding: 0;
+}
+
+#main-2 .inner .button {
+  font-family: 'Kaushan Script', cursive !important;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* MEDIA QUERIES FOR MOBILE PHONE  */
